@@ -1,3 +1,13 @@
+body {
+    font-family: "Open Sans", sans-serif;
+    font-weight: 300;
+    background-image: linear-gradient(to bOttom right, #00f490, #00BBC9);
+}
+
+h1 {
+    font-family: "Abril Fatface", serif;
+}
+
 .myJumbotron {
     text-align: center;
     border: solid 1px ;
