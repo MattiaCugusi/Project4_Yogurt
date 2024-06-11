@@ -47,6 +47,11 @@ h1 {
     margin: auto;
 }
 
+.titolo {
+    font-weight: bold;
+    border-right: solid 1px rgb(208, 200, 200);
+}
+
 @media (max-width: 768px){
     .yogurt {
         width: 55%;
