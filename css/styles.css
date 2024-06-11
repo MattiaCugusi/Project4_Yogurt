@@ -143,6 +143,11 @@ nav {
     display: flex;
 }
 
+.btn-primary , .btn-primary:hover {
+    background-color: #00BBC9;
+    border-color: #00BBC9;
+}
+
 
 
 }
