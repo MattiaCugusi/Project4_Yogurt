@@ -10,44 +10,38 @@
 </head>
   <body>
 
-    <nav class="navbar navbar-expand-lg navbar-light bg-light menu">
-      <nav class="navbar bg-body-tertiary">
-        <div class="container">
-          <a class="navbar-brand" href="#">
-            <img src="./images/logo-dans-meat-yogurt.svg" alt="Dan's Meat Yogurt Company Logo">
+    <header>
+      <div class="logo">
+       <img src="./images/logo-dans-meat-yogurt.svg">
+       </div>
+      <nav>
+        <div class="opzioni">
+        <li class="nav-item dropdown">
+          <a class="ndropdown-toggle btn btn-outline-light btn-lg mt-4 px-5 py-3 mb-5 mb-md-0 " href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            FLAVOURS
           </a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="#">Ham</a></li>
+            <li><a class="dropdown-item" href="#">Another action</a></li>
+            <li><hr class="dropdown-divider"></li>
+            <li><a class="dropdown-item" href="#">Something else here</a></li>
+          </ul>
+        </li>
+        <a class="btn btn-outline-light btn-lg mt-4 px-5 py-3 mb-5 mb-md-0" href="#" role="button">CONTACT</a>
         </div>
       </nav>
-      <div class="container-fluid">
-        
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
 
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav m--100">
-            <li class="nav-item">
-              <a class="nav-link" href="#">Link</a>
-            </li>
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                Dropdown
-              </a>
-              <ul class="dropdown-menu">
-                <li><a class="dropdown-item" href="#">Action</a></li>
-                <li><a class="dropdown-item" href="#">Another action</a></li>
-                <li><hr class="dropdown-divider"></li>
-                <li><a class="dropdown-item" href="#">Something else here</a></li>
-              </ul>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link disabled" aria-disabled="true">Disabled</a>
-            </li>
-          </ul>
-          
-        </div>
+      <div class="mob-wrapper">
+       <img src="./images/icon-burger-menu.svg" alt="Mobile Menu Icon" style="width: 40px;" class="burgermenu">
+      
+      <div class="mob-nav">
+       <a href="#" class="navbutton">FLAVOURS</a>
+       <a href="#" class="navbutton">CONTACT</a>
       </div>
-    </nav>
+       
+     </div>
+   </header>
+        
 
 
 
@@ -71,11 +65,25 @@
 
       </div>
 
+       <!-- Founders Message-->
+
+       <div class="row yogurt">
+        <div class="col-12 col-md-4">
+          <img src="./images/headshot-dan.jpg" class="img-fluid border rounded-left border-lg border-0" alt="Daniel Walter Scott">
+        </div>
+        <div class="col-12 col-md-8 bg-white p-5 d-flex align-items-center border border-black">
+        <section>
+          <h2>Message from our founder</h2>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem eveniet ratione eaque recusandae. Rem obcaecati laborum dolore quisquam ullam at enim delectus officia suscipit placeat mollitia maiores facere exercitationem sequi ipsa eos est, eaque nulla in. Magnam modi quaerat amet debitis numquam quasi ut corporis laboriosam, quos sunt odio sit qui earum, eos omnis commodi dicta ducimus eveniet odit possimus!</p>
+        </section>
+        </div>
+      </div>
+
      
 
       <!-- Carosello-->
 
-      <div id="carouselExample" class="carousel slide mycarosello">
+      <div id="carouselExample" class="carousel slide d-none d-md-block mycarosello">
         <div class="carousel-inner">
           <div class="carousel-item active">
             <img src="./images/yogurt-1.png" class="d-block w-100" alt="...">
@@ -97,6 +105,7 @@
         </button>
       </div>
 
+     
 
       <!--Cards-->
 
@@ -140,6 +149,7 @@
 
 
 
+      <script src="./js/script.js"></script>
       <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
       <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
       <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
